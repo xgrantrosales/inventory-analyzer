@@ -9,6 +9,18 @@ A simple Python project that analyzes a list of products and generates useful in
 - Count affordable items
 - Calculate total inventory value
 
+## Code Structure
+
+The program is organized using functions:
+
+- `analyze_products(products)`  
+  Processes product data and returns analysis results  
+
+- `display_results(...)`  
+  Displays the formatted output  
+
+This improves code readability and separation of logic.
+
 ## Example Output
 
 Low stock items: ['Keyboard', 'Monitor', 'USB Cable']
@@ -18,12 +30,13 @@ Total Inventory Value: 879100
 
 ## Concepts Demonstrated
 
-Dictionaries
-Lists
-Loops
-Conditional logic
-Counters and accumulators
-Data filtering
+- Dictionaries
+- Nested data structures
+- Lists
+- Loops
+- Conditional logic
+- Counters and accumulators
+- Functions (modular programming)
 
 ## How to Run
 
